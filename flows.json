@@ -1,0 +1,7040 @@
+[
+    {
+        "id": "18ec6336869e4528",
+        "type": "tab",
+        "label": "Satellite rotator",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "74f0d2268890c18e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "df39fb6c95be0889",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ee552e630392ec52",
+        "type": "ui_tab",
+        "name": "Rotator",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5f5cd47861a125a0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Satellite Rotator",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d4dca180d2ac9f4f",
+        "type": "ui_group",
+        "name": "Rotator Status",
+        "tab": "ee552e630392ec52",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "52025ff07fe3dc68",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "/dev/ttyS0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "200",
+        "bin": "false",
+        "out": "time",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "2b135cf193fcb5c0",
+        "type": "ui_group",
+        "name": "Calibration",
+        "tab": "ee552e630392ec52",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "71cfe0849f58d06e",
+        "type": "ui_group",
+        "name": "Manual Control",
+        "tab": "ee552e630392ec52",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a5152a051450ad3a",
+        "type": "ui_group",
+        "name": "Controls",
+        "tab": "ee552e630392ec52",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "eb5d52d5907726eb",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "8b66cef4b1e78c7c",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "eb5d52d5907726eb",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "a16738f863d8dbd9",
+        "type": "rpi-gpio out",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pin": "19",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 480,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "206723c0da937881",
+        "type": "rpi-gpio out",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pin": "6",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 480,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "46ad7206bd5807fd",
+        "type": "rpi-gpio out",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pin": "21",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 460,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "63b6a46ab9ca806c",
+        "type": "rpi-gpio out",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pin": "5",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 480,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "4f0891e801f68ad2",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Move right",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "29d6d4ebd6f5e0cf"
+            ]
+        ]
+    },
+    {
+        "id": "4ca15f2e1869a6d9",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Move left",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 100,
+        "y": 100,
+        "wires": [
+            [
+                "65e42aea900ae3bc"
+            ]
+        ]
+    },
+    {
+        "id": "97fc3dd30470a4b3",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Move up",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 400,
+        "y": 60,
+        "wires": [
+            [
+                "81dcb2ebb1fb23c8"
+            ]
+        ]
+    },
+    {
+        "id": "02bb46faf961247a",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Set motion left",
+        "func": "msg.payload=\"Left\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "6346867c4d6588d8"
+            ]
+        ]
+    },
+    {
+        "id": "6346867c4d6588d8",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "d4dca180d2ac9f4f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Azimuth Direction",
+        "label": "Azimuth Direction",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 730,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a2b55e55d1763baa",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Az Stopped",
+        "func": "msg.payload=\"Stopped\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "6346867c4d6588d8"
+            ]
+        ]
+    },
+    {
+        "id": "12b90c38eb80045a",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "If right turn off left",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "206723c0da937881"
+            ]
+        ]
+    },
+    {
+        "id": "720c7c21e090e21b",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "If left turn off right",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "a16738f863d8dbd9"
+            ]
+        ]
+    },
+    {
+        "id": "5220cdb09fddc053",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Set motion to up",
+        "func": "msg.payload=\"Up\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 660,
+        "wires": [
+            [
+                "8ed45a5b4422d1d7"
+            ]
+        ]
+    },
+    {
+        "id": "c3874f72bdd46919",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Set motion down",
+        "func": "msg.payload=\"Down\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 880,
+        "wires": [
+            [
+                "8ed45a5b4422d1d7"
+            ]
+        ]
+    },
+    {
+        "id": "8ed45a5b4422d1d7",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "d4dca180d2ac9f4f",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Elevation Direction",
+        "label": "Elevation Direction",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 730,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "755979dd4ddaf2b3",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "El Stopped",
+        "func": "msg.payload=\"Stopped\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 800,
+        "wires": [
+            [
+                "8ed45a5b4422d1d7"
+            ]
+        ]
+    },
+    {
+        "id": "8109c694333a3867",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "If up turn off down",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 740,
+        "wires": [
+            [
+                "63b6a46ab9ca806c"
+            ]
+        ]
+    },
+    {
+        "id": "cd0cf69ed6967386",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "If down turn off up",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 840,
+        "wires": [
+            [
+                "46ad7206bd5807fd"
+            ]
+        ]
+    },
+    {
+        "id": "407e25c81c9e3d73",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Move right",
+        "links": [
+            "29d6d4ebd6f5e0cf",
+            "f028978aec55ab09",
+            "c536ba8a517ac0bc",
+            "7c7f833ed51e4206"
+        ],
+        "x": 65,
+        "y": 280,
+        "wires": [
+            [
+                "12b90c38eb80045a",
+                "b4e9fd6f38ec15c7",
+                "a16738f863d8dbd9",
+                "7cd8bf0f478c4b68"
+            ]
+        ]
+    },
+    {
+        "id": "54f78f395ae3b212",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Move left",
+        "links": [
+            "65e42aea900ae3bc",
+            "76841cf6f8a5e6f9",
+            "db605fdd1de47068",
+            "f8eb35f26950eb92"
+        ],
+        "x": 55,
+        "y": 480,
+        "wires": [
+            [
+                "720c7c21e090e21b",
+                "02bb46faf961247a",
+                "206723c0da937881",
+                "4f4572aeab0ab0ae"
+            ]
+        ]
+    },
+    {
+        "id": "29d6d4ebd6f5e0cf",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "407e25c81c9e3d73"
+        ],
+        "x": 255,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "65e42aea900ae3bc",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move left",
+        "mode": "link",
+        "links": [
+            "54f78f395ae3b212"
+        ],
+        "x": 255,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d8d025ce8fa2a5f1",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Stop Az move",
+        "links": [
+            "2a36eb790bd490f6",
+            "6258bc149e1d4868",
+            "6632df7dc946c37c",
+            "aac1a39336d1ec71",
+            "d22ce49cdb59fadc",
+            "d8a1055ab0d9367d",
+            "4560ec6386f82594",
+            "42bd32b814b23b6a",
+            "8a0122dc1821b8c9",
+            "a978a9338cf1c049"
+        ],
+        "x": 55,
+        "y": 400,
+        "wires": [
+            [
+                "a2b55e55d1763baa",
+                "a16738f863d8dbd9",
+                "206723c0da937881",
+                "5745cd935fdfe1c6"
+            ]
+        ]
+    },
+    {
+        "id": "4d86b7439c86af98",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Stop az",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "2a36eb790bd490f6"
+            ]
+        ]
+    },
+    {
+        "id": "b4e9fd6f38ec15c7",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Set motion to right",
+        "func": "msg.payload=\"Right\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "6346867c4d6588d8"
+            ]
+        ]
+    },
+    {
+        "id": "2a36eb790bd490f6",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 255,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ffbb8c494a2858e6",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Motion up",
+        "links": [
+            "056fabb33450f3e2",
+            "35346f08c10ec078",
+            "7f034dd84c65f156",
+            "81dcb2ebb1fb23c8"
+        ],
+        "x": 95,
+        "y": 660,
+        "wires": [
+            [
+                "5220cdb09fddc053",
+                "46ad7206bd5807fd",
+                "8109c694333a3867",
+                "f139631bfbe863cd"
+            ]
+        ]
+    },
+    {
+        "id": "9dd29cbb2757fdef",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Motion down",
+        "links": [
+            "41290145f9f8cc7c",
+            "a9b308c3e65bef44",
+            "2107b253266d9697",
+            "02a0fcc1848ba1d7"
+        ],
+        "x": 85,
+        "y": 920,
+        "wires": [
+            [
+                "cd0cf69ed6967386",
+                "63b6a46ab9ca806c",
+                "c3874f72bdd46919",
+                "1d9f3d6eeb3e1e55"
+            ]
+        ]
+    },
+    {
+        "id": "81dcb2ebb1fb23c8",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "ffbb8c494a2858e6"
+        ],
+        "x": 525,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d0724cc96667de82",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Move down",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "41290145f9f8cc7c"
+            ]
+        ]
+    },
+    {
+        "id": "41290145f9f8cc7c",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move down",
+        "mode": "link",
+        "links": [
+            "9dd29cbb2757fdef"
+        ],
+        "x": 525,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1b742d334c81fd14",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Stop el",
+        "links": [
+            "3ff79c0a42542e04",
+            "a59fa5f68735e9cf",
+            "b69daf76e3728b4a",
+            "d8a1055ab0d9367d",
+            "591569ef7bd635f9",
+            "aac1a39336d1ec71",
+            "42bd32b814b23b6a"
+        ],
+        "x": 95,
+        "y": 800,
+        "wires": [
+            [
+                "46ad7206bd5807fd",
+                "63b6a46ab9ca806c",
+                "755979dd4ddaf2b3",
+                "b64aead3d98d26fa"
+            ]
+        ]
+    },
+    {
+        "id": "f33d1efcf09dd82a",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Stop el",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "3ff79c0a42542e04"
+            ]
+        ]
+    },
+    {
+        "id": "3ff79c0a42542e04",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14",
+            "19a7cb8df1de942c"
+        ],
+        "x": 525,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f5a36003ae89f39c",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Stop all",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "a59fa5f68735e9cf",
+                "d22ce49cdb59fadc"
+            ]
+        ]
+    },
+    {
+        "id": "a59fa5f68735e9cf",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14",
+            "19a7cb8df1de942c"
+        ],
+        "x": 785,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d22ce49cdb59fadc",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 785,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4cb59d95ac7faac0",
+        "type": "iiot2k-ads1115",
+        "z": "18ec6336869e4528",
+        "port": 1,
+        "devadr": "0",
+        "mux": "4",
+        "gain": "0",
+        "rate": "4",
+        "rawdata": false,
+        "tupdate": 300,
+        "x": 100,
+        "y": 1460,
+        "wires": [
+            [
+                "e7e1709d3b370fe6"
+            ]
+        ],
+        "outputLabels": [
+            "A0 Elevation"
+        ],
+        "info": "Azimuth sensor"
+    },
+    {
+        "id": "b6a61cd31364d2fe",
+        "type": "iiot2k-ads1115",
+        "z": "18ec6336869e4528",
+        "port": 1,
+        "devadr": "0",
+        "mux": "5",
+        "gain": "0",
+        "rate": "4",
+        "rawdata": false,
+        "tupdate": 300,
+        "x": 100,
+        "y": 1380,
+        "wires": [
+            [
+                "9c422d33185ee3d3",
+                "e421b981148304c5"
+            ]
+        ],
+        "info": "Elevation sensor"
+    },
+    {
+        "id": "407cf67002577966",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Set min Az",
+        "group": "2b135cf193fcb5c0",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set min Az",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#bd511e",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1100,
+        "wires": [
+            [
+                "d729d6a8a83356e6"
+            ]
+        ]
+    },
+    {
+        "id": "9c422d33185ee3d3",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Store current az",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CurrentAz",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 1380,
+        "wires": [
+            [
+                "4dec1af4d43c0b6e"
+            ]
+        ]
+    },
+    {
+        "id": "e1cf3830c1745b7b",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "CurrentAz",
+        "payloadType": "flow",
+        "x": 2340,
+        "y": 140,
+        "wires": [
+            [
+                "ce8ac21c4b208cae"
+            ]
+        ]
+    },
+    {
+        "id": "d729d6a8a83356e6",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Min Az",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MinAz",
+                "pt": "flow",
+                "to": "CurrentAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 1100,
+        "wires": [
+            [
+                "0e82be4088eff939"
+            ]
+        ]
+    },
+    {
+        "id": "ce8ac21c4b208cae",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "CurrentAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ab2adf488479447",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "group": "2b135cf193fcb5c0",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set max Az",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#bd511e",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1140,
+        "wires": [
+            [
+                "4c1168cece84335c"
+            ]
+        ]
+    },
+    {
+        "id": "4c1168cece84335c",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set MaxAz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MaxAz",
+                "pt": "flow",
+                "to": "CurrentAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 1140,
+        "wires": [
+            [
+                "4a4c479645334bc3"
+            ]
+        ]
+    },
+    {
+        "id": "4dec1af4d43c0b6e",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Convert voltages to Az",
+        "func": "var Mx = flow.get(\"MaxAz\");\nvar Mn = flow.get(\"MinAz\");\nvar Cv = flow.get(\"CurrentAz\");\nmsg.payload = Math.round((Cv - Mn)/(Mx - Mn) * 360);\n//msg.payload = Mx;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1380,
+        "wires": [
+            [
+                "993519bd23fdfb39",
+                "e04256903853f201"
+            ]
+        ]
+    },
+    {
+        "id": "993519bd23fdfb39",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Current Az Degrees",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CurrentAzDegrees",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e7e1709d3b370fe6",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Store current el",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CurrentEl",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1460,
+        "wires": [
+            [
+                "49ee20450bbaa1bc"
+            ]
+        ]
+    },
+    {
+        "id": "49ee20450bbaa1bc",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Convert voltages to El",
+        "func": "var Mx = flow.get(\"MaxEl\");\nvar Mn = flow.get(\"MinEl\");\nvar Cv = flow.get(\"CurrentEl\");\nmsg.payload = Math.round((Cv - Mn)/(Mx - Mn) * 90);\n//msg.payload = Mx;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1460,
+        "wires": [
+            [
+                "6175027da79384c4",
+                "f6cce932723d3c1c"
+            ]
+        ]
+    },
+    {
+        "id": "6175027da79384c4",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Current El Degrees",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CurrentElDegrees",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba0892ace9f2ddae",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "group": "2b135cf193fcb5c0",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set min El",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#bd511e",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1200,
+        "wires": [
+            [
+                "de2695b1f7314f84"
+            ]
+        ]
+    },
+    {
+        "id": "de2695b1f7314f84",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Min El",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MinEl",
+                "pt": "flow",
+                "to": "CurrentEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 1200,
+        "wires": [
+            [
+                "3924706d010965ba"
+            ]
+        ]
+    },
+    {
+        "id": "adbc4bf75e3bd718",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "group": "2b135cf193fcb5c0",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set max El",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#bd511e",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1240,
+        "wires": [
+            [
+                "40d654761b8c0b86"
+            ]
+        ]
+    },
+    {
+        "id": "40d654761b8c0b86",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Max El",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MaxEl",
+                "pt": "flow",
+                "to": "CurrentEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 1240,
+        "wires": [
+            [
+                "334e4a3c02e59579"
+            ]
+        ]
+    },
+    {
+        "id": "d01ca3dc66842f4b",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "CurrentEl",
+        "payloadType": "flow",
+        "x": 2340,
+        "y": 180,
+        "wires": [
+            [
+                "4fc67d000aa1f4dd"
+            ]
+        ]
+    },
+    {
+        "id": "4fc67d000aa1f4dd",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "CurrentEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3771c9f66e9f47d",
+        "type": "file",
+        "z": "18ec6336869e4528",
+        "name": "Write min El",
+        "filename": "/home/pi/MinEl.cfg",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3924706d010965ba",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload for Min El write",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MinEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1200,
+        "wires": [
+            [
+                "c3771c9f66e9f47d"
+            ]
+        ]
+    },
+    {
+        "id": "c93be7a1bc9ba0ef",
+        "type": "file",
+        "z": "18ec6336869e4528",
+        "name": "Write Max EL",
+        "filename": "/home/pi/MaxEl.cfg",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 740,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "334e4a3c02e59579",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload for Maz El write",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MaxEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1240,
+        "wires": [
+            [
+                "c93be7a1bc9ba0ef"
+            ]
+        ]
+    },
+    {
+        "id": "a7a5d9dadb9b16ee",
+        "type": "file",
+        "z": "18ec6336869e4528",
+        "name": "Write min Az",
+        "filename": "/home/pi/MinAz.cfg",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0e82be4088eff939",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload for MinAz write",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MinAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1100,
+        "wires": [
+            [
+                "a7a5d9dadb9b16ee"
+            ]
+        ]
+    },
+    {
+        "id": "229efae397a5d43c",
+        "type": "file",
+        "z": "18ec6336869e4528",
+        "name": "Write max Az",
+        "filename": "/home/pi/MaxAz.cfg",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a4c479645334bc3",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload for MaxAz write",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MaxAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 1140,
+        "wires": [
+            [
+                "229efae397a5d43c"
+            ]
+        ]
+    },
+    {
+        "id": "31f245f877aeb63e",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Calibrate min and max Az and El",
+        "info": "",
+        "x": 170,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "c517086390706530",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Update Az and El every second",
+        "info": "",
+        "x": 150,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "784fedf53937964f",
+        "type": "file in",
+        "z": "18ec6336869e4528",
+        "name": "Read MinAz",
+        "filename": "/home/pi/MinAz.cfg",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 270,
+        "y": 1620,
+        "wires": [
+            [
+                "e39272478a9cdd06"
+            ]
+        ]
+    },
+    {
+        "id": "6f07016d09e36c9c",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1620,
+        "wires": [
+            [
+                "784fedf53937964f"
+            ]
+        ]
+    },
+    {
+        "id": "e39272478a9cdd06",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Min Az",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MinAz",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1620,
+        "wires": [
+            [
+                "46263d0515f0b69d"
+            ]
+        ]
+    },
+    {
+        "id": "7a2a5f9332238496",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set MaxAz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MaxAz",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1680,
+        "wires": [
+            [
+                "15a8f286991424bc"
+            ]
+        ]
+    },
+    {
+        "id": "92f7aa35a92b41f7",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Min El",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MinEl",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1740,
+        "wires": [
+            [
+                "dcb6310dcfc99ab0"
+            ]
+        ]
+    },
+    {
+        "id": "5db92b8a18f42c59",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Max El",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MaxEl",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1800,
+        "wires": [
+            [
+                "bb92d23859cfa6f1"
+            ]
+        ]
+    },
+    {
+        "id": "c8799ab570bc8cd5",
+        "type": "file in",
+        "z": "18ec6336869e4528",
+        "name": "Read MaxAz",
+        "filename": "/home/pi/MaxAz.cfg",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 270,
+        "y": 1680,
+        "wires": [
+            [
+                "7a2a5f9332238496"
+            ]
+        ]
+    },
+    {
+        "id": "01100b27ce4f33e1",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1680,
+        "wires": [
+            [
+                "c8799ab570bc8cd5"
+            ]
+        ]
+    },
+    {
+        "id": "8d0ea2c14eef3af4",
+        "type": "file in",
+        "z": "18ec6336869e4528",
+        "name": "Read MinEl",
+        "filename": "/home/pi/MinEl.cfg",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 270,
+        "y": 1740,
+        "wires": [
+            [
+                "92f7aa35a92b41f7"
+            ]
+        ]
+    },
+    {
+        "id": "f8b3875dca60b80b",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1740,
+        "wires": [
+            [
+                "8d0ea2c14eef3af4"
+            ]
+        ]
+    },
+    {
+        "id": "3d63abee0956bc34",
+        "type": "file in",
+        "z": "18ec6336869e4528",
+        "name": "Read MaxEl",
+        "filename": "/home/pi/MaxEl.cfg",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 270,
+        "y": 1800,
+        "wires": [
+            [
+                "5db92b8a18f42c59"
+            ]
+        ]
+    },
+    {
+        "id": "44076503c5015132",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1800,
+        "wires": [
+            [
+                "3d63abee0956bc34"
+            ]
+        ]
+    },
+    {
+        "id": "33dca395fde09110",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "On startup initialize to previous min/max values",
+        "info": "",
+        "x": 220,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "cdbb06196571e196",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Rotator move buttons",
+        "info": "",
+        "x": 120,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "33520a7904d9cbae",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Azimuth rotation",
+        "info": "",
+        "x": 120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "199542804ab65ee6",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Elevation rotation",
+        "info": "",
+        "x": 140,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "14eb194f9058e14e",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Old debugging code",
+        "info": "",
+        "x": 2350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "29c2c895fe16b694",
+        "type": "ui_slider",
+        "z": "18ec6336869e4528",
+        "name": "Desired Azimuth",
+        "label": "Desired Az",
+        "tooltip": "",
+        "group": "71cfe0849f58d06e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "360",
+        "step": "10",
+        "x": 140,
+        "y": 1940,
+        "wires": [
+            [
+                "e0b6669b3b3236fd",
+                "d9dd7ed1c4fea8ea"
+            ]
+        ]
+    },
+    {
+        "id": "592ec21b133703dc",
+        "type": "ui_slider",
+        "z": "18ec6336869e4528",
+        "name": "Desired Elevation",
+        "label": "Desired El",
+        "tooltip": "",
+        "group": "71cfe0849f58d06e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "90",
+        "step": "10",
+        "x": 150,
+        "y": 2040,
+        "wires": [
+            [
+                "93f8c6914cee183d",
+                "831a168682eb6682"
+            ]
+        ]
+    },
+    {
+        "id": "e0b6669b3b3236fd",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Target Az",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "93f8c6914cee183d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Target El",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "843c92c098e9fb5a",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set minimum move distance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MinMoveDist",
+                "pt": "flow",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9dd7ed1c4fea8ea",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetAz",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "831a168682eb6682",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set Target El",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetEl",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89d37db755106131",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Move or not",
+        "property": "move",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 910,
+        "y": 2240,
+        "wires": [
+            [
+                "f3daef0f41fbfd62"
+            ],
+            [
+                "764d371fee32438f"
+            ]
+        ]
+    },
+    {
+        "id": "2f400516c0169040",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": " Set Az move flag and direction",
+        "func": "//msg.move indicates whether the move is greater than the min move distance and therefore move is needed\nmsg.move = Math.abs(flow.get(\"TargetAz\") - flow.get(\"CurrentAzDegrees\")) > flow.get(\"MinMoveDist\");\n// msg.direction indicates the direction of the move - true - right\n// both variables are boolean\nmsg.direction = (flow.get(\"TargetAz\") - flow.get(\"CurrentAzDegrees\")) > 0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2240,
+        "wires": [
+            [
+                "fab004474efa239c"
+            ]
+        ]
+    },
+    {
+        "id": "6258bc149e1d4868",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Az stop",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 1055,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "f3daef0f41fbfd62",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Right or left",
+        "property": "direction",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 2220,
+        "wires": [
+            [
+                "d26b9498d9dbdf04"
+            ],
+            [
+                "4157842c56448850"
+            ]
+        ]
+    },
+    {
+        "id": "f028978aec55ab09",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move right",
+        "mode": "link",
+        "links": [
+            "407e25c81c9e3d73"
+        ],
+        "x": 1465,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "76841cf6f8a5e6f9",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move left",
+        "mode": "link",
+        "links": [
+            "54f78f395ae3b212"
+        ],
+        "x": 1425,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "150b9c5da6b58f44",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Test for Az move needed",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 2240,
+        "wires": [
+            [
+                "2f400516c0169040",
+                "843c92c098e9fb5a",
+                "c9cd956a3c813f8f"
+            ]
+        ]
+    },
+    {
+        "id": "764d371fee32438f",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send stop (0)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2300,
+        "wires": [
+            [
+                "6258bc149e1d4868"
+            ]
+        ]
+    },
+    {
+        "id": "d26b9498d9dbdf04",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send move (1) to right",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 2200,
+        "wires": [
+            [
+                "f028978aec55ab09"
+            ]
+        ]
+    },
+    {
+        "id": "4157842c56448850",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send move (1) to left",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 2260,
+        "wires": [
+            [
+                "76841cf6f8a5e6f9"
+            ]
+        ]
+    },
+    {
+        "id": "e83553bb3894285b",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Manual rotation input",
+        "info": "",
+        "x": 160,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "de3657618d4905ee",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Test for rotation needed",
+        "info": "",
+        "x": 120,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "1b710746db6a8355",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Move or not",
+        "property": "move",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 2440,
+        "wires": [
+            [
+                "c5b139b774ad34f0"
+            ],
+            [
+                "6e478c09b17f203b"
+            ]
+        ]
+    },
+    {
+        "id": "6f69a6b21768b569",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "El move flag",
+        "func": "//msg.move indicates whether the move is greater than the min move distance and therefore move is needed\nmsg.move = Math.abs(flow.get(\"TargetEl\") - flow.get(\"CurrentElDegrees\")) > flow.get(\"MinMoveDist\");\n// msg.direction indicates the direction of the move - true - right\n// both variables are boolean\nmsg.direction = (flow.get(\"TargetEl\") - flow.get(\"CurrentElDegrees\")) > 0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2440,
+        "wires": [
+            [
+                "63a69de640914a81"
+            ]
+        ]
+    },
+    {
+        "id": "b69daf76e3728b4a",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Az stop",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14"
+        ],
+        "x": 1025,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "c5b139b774ad34f0",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Up or down",
+        "property": "direction",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1050,
+        "y": 2420,
+        "wires": [
+            [
+                "b00db9129ea61d98"
+            ],
+            [
+                "b6b8e6c74df9e9f7"
+            ]
+        ]
+    },
+    {
+        "id": "a9b308c3e65bef44",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move up",
+        "mode": "link",
+        "links": [
+            "9dd29cbb2757fdef"
+        ],
+        "x": 1385,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "6260f25397320661",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Test for El move needed",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 2440,
+        "wires": [
+            [
+                "6f69a6b21768b569",
+                "4c71641668295a38",
+                "843c92c098e9fb5a"
+            ]
+        ]
+    },
+    {
+        "id": "6e478c09b17f203b",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send stop (0)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 2500,
+        "wires": [
+            [
+                "b69daf76e3728b4a"
+            ]
+        ]
+    },
+    {
+        "id": "b6b8e6c74df9e9f7",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send move (1) to down",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 2460,
+        "wires": [
+            [
+                "a9b308c3e65bef44"
+            ]
+        ]
+    },
+    {
+        "id": "7f034dd84c65f156",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Move right",
+        "mode": "link",
+        "links": [
+            "ffbb8c494a2858e6"
+        ],
+        "x": 1365,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "b00db9129ea61d98",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send move (1) to up",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 2380,
+        "wires": [
+            [
+                "7f034dd84c65f156"
+            ]
+        ]
+    },
+    {
+        "id": "76b489174b452b5c",
+        "type": "ui_switch",
+        "z": "18ec6336869e4528",
+        "name": "Allow Tracking",
+        "label": "Allow Tracking",
+        "tooltip": "",
+        "group": "a5152a051450ad3a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 140,
+        "y": 2640,
+        "wires": [
+            [
+                "b362a9266b7277ae"
+            ]
+        ]
+    },
+    {
+        "id": "b362a9266b7277ae",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack on/off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AutoTrack",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 2640,
+        "wires": [
+            [
+                "d8a1055ab0d9367d"
+            ]
+        ]
+    },
+    {
+        "id": "fab004474efa239c",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Continue if autotracking",
+        "property": "AutoTrack",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 2240,
+        "wires": [
+            [
+                "89d37db755106131"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "63a69de640914a81",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Continue if autotracking",
+        "property": "AutoTrack",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 2440,
+        "wires": [
+            [
+                "1b710746db6a8355"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d8a1055ab0d9367d",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Stop az and el",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14",
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 555,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "7f3ae0e609cfd933",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Right",
+        "group": "71cfe0849f58d06e",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Right",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 2760,
+        "wires": [
+            [
+                "c536ba8a517ac0bc"
+            ]
+        ]
+    },
+    {
+        "id": "c4223e6318a1b73e",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Left",
+        "group": "71cfe0849f58d06e",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Left",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 2800,
+        "wires": [
+            [
+                "db605fdd1de47068"
+            ]
+        ]
+    },
+    {
+        "id": "e5b2d5af1ffbef3f",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Stop Az",
+        "group": "71cfe0849f58d06e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop Az",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 2840,
+        "wires": [
+            [
+                "6632df7dc946c37c"
+            ]
+        ]
+    },
+    {
+        "id": "590f6f7674305ec9",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Up",
+        "group": "71cfe0849f58d06e",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 2760,
+        "wires": [
+            [
+                "35346f08c10ec078"
+            ]
+        ]
+    },
+    {
+        "id": "109ddbfe354004b8",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Down",
+        "group": "71cfe0849f58d06e",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Down",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 2800,
+        "wires": [
+            [
+                "2107b253266d9697"
+            ]
+        ]
+    },
+    {
+        "id": "3bc0d9d5dc97a1a4",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Stop El",
+        "group": "71cfe0849f58d06e",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop El",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 2840,
+        "wires": [
+            [
+                "591569ef7bd635f9"
+            ]
+        ]
+    },
+    {
+        "id": "b58af514602ce70b",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "Stop all",
+        "group": "71cfe0849f58d06e",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop all",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#f5160a",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 2900,
+        "wires": [
+            [
+                "aac1a39336d1ec71",
+                "e6d512e4223c6db1"
+            ]
+        ]
+    },
+    {
+        "id": "c536ba8a517ac0bc",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Right",
+        "mode": "link",
+        "links": [
+            "407e25c81c9e3d73"
+        ],
+        "x": 235,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "db605fdd1de47068",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Left",
+        "mode": "link",
+        "links": [
+            "54f78f395ae3b212"
+        ],
+        "x": 245,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "6632df7dc946c37c",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Stop Az",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 245,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "35346f08c10ec078",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Up",
+        "mode": "link",
+        "links": [
+            "ffbb8c494a2858e6"
+        ],
+        "x": 495,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "2107b253266d9697",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Down",
+        "mode": "link",
+        "links": [
+            "9dd29cbb2757fdef"
+        ],
+        "x": 495,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "591569ef7bd635f9",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Stop El",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14"
+        ],
+        "x": 505,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "aac1a39336d1ec71",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Stop all",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14",
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 265,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "e6d512e4223c6db1",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Stop autotrack on Stop All",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 2700,
+        "wires": [
+            [
+                "76b489174b452b5c"
+            ]
+        ]
+    },
+    {
+        "id": "e04256903853f201",
+        "type": "ui_gauge",
+        "z": "18ec6336869e4528",
+        "name": "Az gauge",
+        "group": "d4dca180d2ac9f4f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "Azimuth",
+        "label": "Degrees",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 780,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "f6cce932723d3c1c",
+        "type": "ui_gauge",
+        "z": "18ec6336869e4528",
+        "name": "El gauge",
+        "group": "d4dca180d2ac9f4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Elevation",
+        "label": "Degrees",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "",
+        "x": 780,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "30a0667a3a04d26a",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Error character",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4fbc0e7ae14e69a0",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "d4dca180d2ac9f4f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Target Azimuth",
+        "label": "Target Azimuth",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 640,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "c9cd956a3c813f8f",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload to TargetAz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TargetAz",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 2180,
+        "wires": [
+            [
+                "4fbc0e7ae14e69a0"
+            ]
+        ]
+    },
+    {
+        "id": "a86d1124faea85d6",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "d4dca180d2ac9f4f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Target Elevation",
+        "label": "Target Elevation",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 640,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "4c71641668295a38",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set payload to TargetEl",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TargetEl",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 2400,
+        "wires": [
+            [
+                "a86d1124faea85d6"
+            ]
+        ]
+    },
+    {
+        "id": "d105df085047fd8d",
+        "type": "serial in",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "serial": "52025ff07fe3dc68",
+        "x": 1000,
+        "y": 140,
+        "wires": [
+            [
+                "72b0f8451868a185",
+                "c23f8eec00398fd8"
+            ]
+        ]
+    },
+    {
+        "id": "3586a357e006aeea",
+        "type": "serial out",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "serial": "52025ff07fe3dc68",
+        "x": 1920,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "72b0f8451868a185",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Get first character",
+        "func": "const msgString = msg.payload;\nconst firstChar = msgString.charAt(0);\nmsg.firstchar = firstChar;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 140,
+        "wires": [
+            [
+                "aa5c33b3a99010ed",
+                "b84dc2de40122637"
+            ]
+        ]
+    },
+    {
+        "id": "aa5c33b3a99010ed",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Parse command",
+        "property": "firstchar",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "W",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "C",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1400,
+        "y": 140,
+        "wires": [
+            [
+                "438a38b20eb55aa4"
+            ],
+            [
+                "247d12ba1cd4eb20"
+            ],
+            [
+                "30a0667a3a04d26a"
+            ]
+        ]
+    },
+    {
+        "id": "438a38b20eb55aa4",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Parse az and el",
+        "func": "const azString = msg.payload;\nconst azPart = Number(azString.slice(1,4));\nconst elPart = Number (azString.slice(6,9));\nmsg.azPart = azPart;\nmsg.elPart = elPart;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 100,
+        "wires": [
+            [
+                "d8d60e9a4b9d15b4",
+                "6fa87da00655bec4"
+            ]
+        ]
+    },
+    {
+        "id": "d8d60e9a4b9d15b4",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set TargetAz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetAz",
+                "pt": "flow",
+                "to": "azPart",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fa87da00655bec4",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set TargetEl",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetEl",
+                "pt": "flow",
+                "to": "elPart",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85d61b6809acdfe3",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Handle incoming commands from serial port",
+        "info": "",
+        "x": 1110,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "42d047d124b2c01d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Sent AzEl",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b84dc2de40122637",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "firstchar",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "247d12ba1cd4eb20",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Create padded azel string for GS232",
+        "func": "var currentAz = flow.get(\"CurrentAzDegrees\");\nvar currentEl = flow.get(\"CurrentElDegrees\");\nvar azelString = \"AZ=\" + String(currentAz).padStart(3,'0')\n    + \"EL=\" + String(currentEl).padStart(3, '0');\nmsg.payload = azelString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 200,
+        "wires": [
+            [
+                "3586a357e006aeea",
+                "42d047d124b2c01d"
+            ]
+        ]
+    },
+    {
+        "id": "0e83bb5623c2f114",
+        "type": "ui_colour_picker",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "",
+        "label": "",
+        "group": "d4dca180d2ac9f4f",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 3080,
+        "wires": [
+            [
+                "1ddefa5771ff5ec6"
+            ]
+        ]
+    },
+    {
+        "id": "1ddefa5771ff5ec6",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "33946b53f9babc07",
+        "type": "ui_button",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "group": "71cfe0849f58d06e",
+        "order": 9,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Park",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#029c35",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 2900,
+        "wires": [
+            [
+                "4b2ded49ca07f4eb",
+                "8c4e6abeb0051656"
+            ]
+        ]
+    },
+    {
+        "id": "8c4e6abeb0051656",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set TargetEl to zero",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetEl",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 2940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b2ded49ca07f4eb",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set TargetAz to 180",
+        "rules": [
+            {
+                "t": "set",
+                "p": "TargetAz",
+                "pt": "flow",
+                "to": "180",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 2900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c23f8eec00398fd8",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Rotator string",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "15f709f24651dfcc",
+        "type": "hourglass",
+        "z": "18ec6336869e4528",
+        "name": "Az timer",
+        "persistId": "",
+        "humanizeLocale": "",
+        "x": 1820,
+        "y": 500,
+        "wires": [
+            [
+                "e287d2b11ba94b8d"
+            ]
+        ]
+    },
+    {
+        "id": "d5dcbef6def4a21d",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Azimuth Report rotation time",
+        "info": "",
+        "x": 960,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6256cb5f87d4dc59",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Az motion timer start",
+        "links": [
+            "4f4572aeab0ab0ae",
+            "7cd8bf0f478c4b68"
+        ],
+        "x": 795,
+        "y": 460,
+        "wires": [
+            [
+                "3d4de4e92735a669"
+            ]
+        ]
+    },
+    {
+        "id": "dffc822c06e9f379",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send reset",
+        "func": "msg.command = \"reset\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 440,
+        "wires": [
+            [
+                "882c77c0c80c0502",
+                "15f709f24651dfcc"
+            ]
+        ]
+    },
+    {
+        "id": "e07b4c9cca3c5600",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send Start",
+        "func": "msg.command = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1930,
+        "y": 440,
+        "wires": [
+            [
+                "15f709f24651dfcc"
+            ]
+        ]
+    },
+    {
+        "id": "882c77c0c80c0502",
+        "type": "delay",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1750,
+        "y": 440,
+        "wires": [
+            [
+                "e07b4c9cca3c5600"
+            ]
+        ]
+    },
+    {
+        "id": "94b2fe04829511f2",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Az motion timer stop",
+        "links": [
+            "5745cd935fdfe1c6"
+        ],
+        "x": 795,
+        "y": 520,
+        "wires": [
+            [
+                "3d4de4e92735a669"
+            ]
+        ]
+    },
+    {
+        "id": "ace154b0baac2546",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send stop",
+        "func": "msg.command = \"stop\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 500,
+        "wires": [
+            [
+                "15f709f24651dfcc"
+            ]
+        ]
+    },
+    {
+        "id": "50b059bc736a7057",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Update az motion each second",
+        "props": [
+            {
+                "p": "command",
+                "v": "\"status\"",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1590,
+        "y": 580,
+        "wires": [
+            [
+                "d0b04c70377a1c80",
+                "01d118a68b7fef29"
+            ]
+        ]
+    },
+    {
+        "id": "d0b04c70377a1c80",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send status",
+        "func": "msg.command = \"status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 580,
+        "wires": [
+            [
+                "15f709f24651dfcc"
+            ]
+        ]
+    },
+    {
+        "id": "e287d2b11ba94b8d",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Convert to seconds",
+        "func": "msg.payload = Math.round(msg.elapsed.millis/1000);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2010,
+        "y": 500,
+        "wires": [
+            [
+                "82e34e419156a279",
+                "409733ae976fc04a"
+            ]
+        ]
+    },
+    {
+        "id": "82e34e419156a279",
+        "type": "ui_gauge",
+        "z": "18ec6336869e4528",
+        "name": "Az motion timer",
+        "group": "a5152a051450ad3a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Az rotation time",
+        "label": "seconds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 2220,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7cd8bf0f478c4b68",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Az motion start right",
+        "mode": "link",
+        "links": [
+            "6256cb5f87d4dc59"
+        ],
+        "x": 125,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4f4572aeab0ab0ae",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Az motion start left",
+        "mode": "link",
+        "links": [
+            "6256cb5f87d4dc59",
+            "d0e4f6b2e520bcc4"
+        ],
+        "x": 125,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5745cd935fdfe1c6",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Az motion stop",
+        "mode": "link",
+        "links": [
+            "94b2fe04829511f2",
+            "f72e6df996b257a8"
+        ],
+        "x": 55,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "46263d0515f0b69d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Min Az loaded",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "dcb6310dcfc99ab0",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Min El loaded",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "bb92d23859cfa6f1",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Max El loaded",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "15a8f286991424bc",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Max Az loaded",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "437571d791892b63",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Max Az should be 3120",
+        "info": "",
+        "x": 220,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "fe52315702d324b4",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Max el should be 1980",
+        "info": "",
+        "x": 220,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "f5b5846d5dc5ea92",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "If Az rotator has exceeded 360 degrees",
+        "info": "",
+        "x": 630,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "3d4de4e92735a669",
+        "type": "rbe",
+        "z": "18ec6336869e4528",
+        "name": "Block unless change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 940,
+        "y": 480,
+        "wires": [
+            [
+                "a7d2921ad7771e4e"
+            ]
+        ]
+    },
+    {
+        "id": "62fe8c4287dddc10",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Move (1) or stop (0)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1390,
+        "y": 480,
+        "wires": [
+            [
+                "dffc822c06e9f379"
+            ],
+            [
+                "ace154b0baac2546"
+            ]
+        ]
+    },
+    {
+        "id": "409733ae976fc04a",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Greater than 70 seconds",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2090,
+        "y": 620,
+        "wires": [
+            [
+                "88f820ca7d38a718",
+                "2413d656bf4fd369"
+            ],
+            [
+                "2bd2297fc3552ffa"
+            ]
+        ]
+    },
+    {
+        "id": "88f820ca7d38a718",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AutoTrack",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2340,
+        "y": 620,
+        "wires": [
+            [
+                "f4a144d570873566"
+            ]
+        ]
+    },
+    {
+        "id": "546da8cf0a23649e",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "a5152a051450ad3a",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "Autotrack status",
+        "label": "Autotrack status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2020,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "01d118a68b7fef29",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack field",
+        "property": "AutoTrack",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1550,
+        "y": 660,
+        "wires": [
+            [
+                "8e8a369f9dc904dd"
+            ],
+            [
+                "bbb06a1ea7912e67"
+            ]
+        ]
+    },
+    {
+        "id": "8e8a369f9dc904dd",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Autotrack on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "AutoTrack On",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 660,
+        "wires": [
+            [
+                "546da8cf0a23649e"
+            ]
+        ]
+    },
+    {
+        "id": "2413d656bf4fd369",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send stop",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 660,
+        "wires": [
+            [
+                "4560ec6386f82594"
+            ]
+        ]
+    },
+    {
+        "id": "ad55e0636d46ef72",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Hamlib command",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "2a661c17ef48a0af",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Rotctld emulator",
+        "info": "",
+        "x": 1100,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "0ad963f4adc9837d",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "a5152a051450ad3a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Rotator Box Status",
+        "label": "Rotator Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1350,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "fa0b783fbb35c714",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Volt=0, rotator is off",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 950,
+        "y": 1280,
+        "wires": [
+            [
+                "5421423507d8bac4"
+            ],
+            [
+                "3602d42201982f32"
+            ]
+        ]
+    },
+    {
+        "id": "5421423507d8bac4",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Rotator Off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Rotator Box Off",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "RotOnOff",
+                "pt": "flow",
+                "to": "Off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 1240,
+        "wires": [
+            [
+                "0ad963f4adc9837d"
+            ]
+        ]
+    },
+    {
+        "id": "e421b981148304c5",
+        "type": "rbe",
+        "z": "18ec6336869e4528",
+        "name": "Block unless change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 540,
+        "y": 1320,
+        "wires": [
+            [
+                "fa0b783fbb35c714"
+            ]
+        ]
+    },
+    {
+        "id": "3602d42201982f32",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set rotator on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Rotator Box On",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "RotOnOff",
+                "pt": "flow",
+                "to": "On",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 1320,
+        "wires": [
+            [
+                "0ad963f4adc9837d"
+            ]
+        ]
+    },
+    {
+        "id": "a7d2921ad7771e4e",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Check Rototor on",
+        "property": "RotOnOff",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "On",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1170,
+        "y": 480,
+        "wires": [
+            [
+                "62fe8c4287dddc10"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bbb06a1ea7912e67",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Autotrack off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Autotrack off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 700,
+        "wires": [
+            [
+                "546da8cf0a23649e"
+            ]
+        ]
+    },
+    {
+        "id": "2a9daf730db61b5b",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Get first character",
+        "func": "const msgString = msg.payload;\nconst firstChar = msgString.charAt(0);\nmsg.firstchar = firstChar;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1473.9999694824219,
+        "y": 899.9999256134033,
+        "wires": [
+            [
+                "d4df931cb170e3e0",
+                "9038edbb4569fc6b"
+            ]
+        ]
+    },
+    {
+        "id": "03937f0abb8a0f4a",
+        "type": "tcp in",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "server": "server",
+        "host": "",
+        "port": "4533",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 1040,
+        "y": 940,
+        "wires": [
+            [
+                "5ca9babe0112d4b2",
+                "7db751e0d89686da",
+                "4912bbb08f64780a",
+                "c537e204c5d59f01"
+            ]
+        ]
+    },
+    {
+        "id": "5fcc9f075b191a5a",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "TCP port hamlib server code is below",
+        "info": "",
+        "x": 1090,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "102833f20546dc19",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "TCP input",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d4df931cb170e3e0",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Incoming command",
+        "property": "firstchar",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "P",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "p",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "q",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "M",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 1710,
+        "y": 900,
+        "wires": [
+            [
+                "7e3852d54b75ee7d"
+            ],
+            [
+                "35cdde9606ac2768"
+            ],
+            [
+                "799b1218a0276a87"
+            ],
+            [
+                "194d988e0be6a823"
+            ],
+            [
+                "1f0939107c47f9b5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5a86a9437e26b04c",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Parse az and el",
+        "func": "const azString = msg.payload;\nconst azPart = Math.ceil(Number(azString.slice(2,11)));\nconst elPart = Math.ceil(Number (azString.slice(12,21)));\nmsg.azPart = azPart;\nmsg.elPart = elPart;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2360,
+        "y": 820,
+        "wires": [
+            [
+                "688e2259a24ff9e6",
+                "2e5afa2155e32329",
+                "7a2181c9626eb40b",
+                "a976584ad264fedc"
+            ]
+        ]
+    },
+    {
+        "id": "688e2259a24ff9e6",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Az",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "azPart",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2850,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2e5afa2155e32329",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "El",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "elPart",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2850,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "26eb2c6fce71abcd",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "a5152a051450ad3a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "TCP command",
+        "label": "TCP command",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1320,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "b73331e2a4935706",
+        "type": "tcp out",
+        "z": "18ec6336869e4528",
+        "name": "Reply to TCP",
+        "host": "localhost",
+        "port": "4533",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 2450,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "35cdde9606ac2768",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Create padded azel string for rotctl",
+        "func": "var currentAz = flow.get(\"CurrentAzDegrees\");\nvar currentEl = flow.get(\"CurrentElDegrees\");\n// Change per Grok to make Skyroof work right\n//var azelString = String(currentAz) + \".000000 \" + String(currentEl) + \".000000\";\nvar azelString = String(currentAz) + \".000000\\n\"  + String(currentEl) + \".000000\\n\";\n//var azelString = String(currentAz) + \".000000 \" + String(currentEl) + \".000000\\n\";\n//var azelString = String(currentAz) + \"0.000000 \" + String(currentEl) + \"0.000000\\n\";\n\nmsg.payload = azelString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 920,
+        "wires": [
+            [
+                "f0e41fe72a088bb9",
+                "b73331e2a4935706"
+            ]
+        ]
+    },
+    {
+        "id": "774c5bf1c5108dfc",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Reply to TCP port",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2390,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "5ca9babe0112d4b2",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Skip newline for web output",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "\\n",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1320,
+        "y": 940,
+        "wires": [
+            [],
+            [
+                "26eb2c6fce71abcd"
+            ]
+        ]
+    },
+    {
+        "id": "2d07bad53c2744db",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Target Az link",
+        "links": [
+            "a976584ad264fedc"
+        ],
+        "x": 1615,
+        "y": 20,
+        "wires": [
+            [
+                "d8d60e9a4b9d15b4"
+            ]
+        ]
+    },
+    {
+        "id": "af7d96cbefc0c4e5",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Target el link",
+        "links": [
+            "a976584ad264fedc"
+        ],
+        "x": 1635,
+        "y": 160,
+        "wires": [
+            [
+                "6fa87da00655bec4"
+            ]
+        ]
+    },
+    {
+        "id": "4560ec6386f82594",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Timeout stop",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 2435,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "a976584ad264fedc",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to target az and el",
+        "mode": "link",
+        "links": [
+            "2d07bad53c2744db",
+            "af7d96cbefc0c4e5"
+        ],
+        "x": 2725,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "799b1218a0276a87",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "name": "Park",
+        "mode": "link",
+        "links": [
+            "d05cef81f7838a5e"
+        ],
+        "x": 1888.9999694824219,
+        "y": 959.9999256134033,
+        "wires": [],
+        "info": "If q then SatNOGS pass is over; park rotator"
+    },
+    {
+        "id": "d05cef81f7838a5e",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Link to park",
+        "links": [
+            "799b1218a0276a87"
+        ],
+        "x": 385,
+        "y": 2960,
+        "wires": [
+            [
+                "4b2ded49ca07f4eb",
+                "8c4e6abeb0051656"
+            ]
+        ]
+    },
+    {
+        "id": "bc34f1b1ac72d1b7",
+        "type": "ui_switch",
+        "z": "18ec6336869e4528",
+        "name": "Hamlib control",
+        "label": "Allow hamlib",
+        "tooltip": "",
+        "group": "a5152a051450ad3a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 1080,
+        "y": 760,
+        "wires": [
+            [
+                "b5a2cb975155d3c4",
+                "651f7d5c81e6143d"
+            ]
+        ]
+    },
+    {
+        "id": "b5a2cb975155d3c4",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Hamlib status",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "7db751e0d89686da",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Allow hamlib",
+        "property": "hamlib",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1273.9999694824219,
+        "y": 899.9999256134033,
+        "wires": [
+            [
+                "2a9daf730db61b5b",
+                "ad55e0636d46ef72"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "651f7d5c81e6143d",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set flow.hamlib",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hamlib",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "082730936530cd49",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Link to park on q",
+        "info": "",
+        "x": 2000,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "4293ae31cf79f215",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Stop command",
+        "links": [],
+        "x": 35,
+        "y": 2900,
+        "wires": [
+            [
+                "b58af514602ce70b"
+            ]
+        ]
+    },
+    {
+        "id": "42bd32b814b23b6a",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to stop",
+        "mode": "link",
+        "links": [
+            "1b742d334c81fd14",
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 2078.999969482422,
+        "y": 1039.9999256134033,
+        "wires": []
+    },
+    {
+        "id": "19b34488247a5163",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Link to stop",
+        "info": "",
+        "x": 1990,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "194d988e0be6a823",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Parse move direction",
+        "func": "msg.payload = Number(msg.payload.slice(2,4));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1963.9999694824219,
+        "y": 1119.9999256134033,
+        "wires": [
+            [
+                "bae5c7040d5eeb12",
+                "0415d44cf2fd8d9d"
+            ]
+        ]
+    },
+    {
+        "id": "bae5c7040d5eeb12",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Move direction",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "8",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "16",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 2163.999969482422,
+        "y": 1119.9999256134033,
+        "wires": [
+            [
+                "471cab573bf10291"
+            ],
+            [
+                "cc9261983c1092be"
+            ],
+            [
+                "bd5f0c9d3faf3754"
+            ],
+            [
+                "319ce933203c92af"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "056fabb33450f3e2",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to up",
+        "mode": "link",
+        "links": [
+            "ffbb8c494a2858e6"
+        ],
+        "x": 2458.999969482422,
+        "y": 1059.9999256134033,
+        "wires": []
+    },
+    {
+        "id": "02a0fcc1848ba1d7",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to down",
+        "mode": "link",
+        "links": [
+            "9dd29cbb2757fdef"
+        ],
+        "x": 2458.999969482422,
+        "y": 1099.9999256134033,
+        "wires": []
+    },
+    {
+        "id": "f8eb35f26950eb92",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to left",
+        "mode": "link",
+        "links": [
+            "54f78f395ae3b212"
+        ],
+        "x": 2458.999969482422,
+        "y": 1139.9999256134033,
+        "wires": []
+    },
+    {
+        "id": "7c7f833ed51e4206",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Link to right",
+        "mode": "link",
+        "links": [
+            "407e25c81c9e3d73"
+        ],
+        "x": 2458.999969482422,
+        "y": 1179.9999256134033,
+        "wires": []
+    },
+    {
+        "id": "1dd2dc4669da3735",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Here's where the minimum move degrees is set",
+        "info": "",
+        "x": 460,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "0415d44cf2fd8d9d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Move direction",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2180,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "471cab573bf10291",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2343.999969482422,
+        "y": 1059.9999256134033,
+        "wires": [
+            [
+                "056fabb33450f3e2",
+                "1428ace8151aa93d"
+            ]
+        ]
+    },
+    {
+        "id": "cc9261983c1092be",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2343.999969482422,
+        "y": 1099.9999256134033,
+        "wires": [
+            [
+                "02a0fcc1848ba1d7"
+            ]
+        ]
+    },
+    {
+        "id": "bd5f0c9d3faf3754",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2343.999969482422,
+        "y": 1139.9999256134033,
+        "wires": [
+            [
+                "f8eb35f26950eb92"
+            ]
+        ]
+    },
+    {
+        "id": "319ce933203c92af",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set to 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2343.999969482422,
+        "y": 1179.9999256134033,
+        "wires": [
+            [
+                "7c7f833ed51e4206"
+            ]
+        ]
+    },
+    {
+        "id": "c01d1e2cd3cb924f",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Manual R/L/U/D",
+        "info": "",
+        "x": 1940,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "1428ace8151aa93d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Move up",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2580,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "1f0939107c47f9b5",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set to zero",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1933.9999694824219,
+        "y": 1039.9999256134033,
+        "wires": [
+            [
+                "42bd32b814b23b6a"
+            ]
+        ]
+    },
+    {
+        "id": "7a2181c9626eb40b",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "RPRT 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "RPRT 0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 880,
+        "wires": [
+            [
+                "b73331e2a4935706"
+            ]
+        ]
+    },
+    {
+        "id": "2b664775408fa510",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Above is where the return to park is disabled",
+        "info": "",
+        "x": 1870,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "cfc34eb49f9640f2",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Every 10 minutes",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2450,
+        "y": 480,
+        "wires": [
+            [
+                "cc2c66d0a8b84ba3"
+            ]
+        ]
+    },
+    {
+        "id": "cc2c66d0a8b84ba3",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AutoTrack",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2660,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fad6a1d953b7b367",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "Reset autotrack every 10 mins",
+        "info": "",
+        "x": 2460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "27c069a1e92959dc",
+        "type": "e-mail",
+        "z": "18ec6336869e4528",
+        "server": "srv03.jkoconnell.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "jon@pearcefamily.org",
+        "dname": "Rotator Controller Email",
+        "x": 3030,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "791d5058e02e144d",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Send rotator timeout",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Rotator timeout",
+        "payload": "Rotator timeout",
+        "payloadType": "str",
+        "x": 2750,
+        "y": 680,
+        "wires": [
+            [
+                "27c069a1e92959dc",
+                "6231149eaf640d16"
+            ]
+        ]
+    },
+    {
+        "id": "6231149eaf640d16",
+        "type": "e-mail",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "server": "srv03.jkoconnell.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "6096704686@txt.att.net",
+        "dname": "Rotator Controller Text",
+        "x": 3020,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "06443d59cc5ec38f",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set msg to rotator timeout",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Rotator timeout",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Rotator timeout",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2770,
+        "y": 620,
+        "wires": [
+            [
+                "6231149eaf640d16",
+                "bf38d6b51c8a1c67"
+            ]
+        ]
+    },
+    {
+        "id": "b4705501cca56ebd",
+        "type": "hourglass",
+        "z": "18ec6336869e4528",
+        "name": "El timer",
+        "persistId": "",
+        "humanizeLocale": "",
+        "x": 3780,
+        "y": 480,
+        "wires": [
+            [
+                "8d1c9a73401681bb"
+            ]
+        ]
+    },
+    {
+        "id": "f6dc4c956f521da9",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "El Report rotation time",
+        "info": "",
+        "x": 2980,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "912b7fcc3d567df8",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Az motion timer start",
+        "links": [
+            "1d9f3d6eeb3e1e55",
+            "f139631bfbe863cd"
+        ],
+        "x": 2875,
+        "y": 440,
+        "wires": [
+            [
+                "f8098895653c32d6"
+            ]
+        ]
+    },
+    {
+        "id": "2aef28d5871b3d95",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send reset",
+        "func": "msg.command = \"reset\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3530,
+        "y": 420,
+        "wires": [
+            [
+                "5166829118884058",
+                "b4705501cca56ebd",
+                "5686bc89de3da6e2"
+            ]
+        ]
+    },
+    {
+        "id": "b855a530c2404305",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send Start",
+        "func": "msg.command = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3890,
+        "y": 420,
+        "wires": [
+            [
+                "b4705501cca56ebd"
+            ]
+        ]
+    },
+    {
+        "id": "5166829118884058",
+        "type": "delay",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 3710,
+        "y": 420,
+        "wires": [
+            [
+                "b855a530c2404305"
+            ]
+        ]
+    },
+    {
+        "id": "d57d73baea89ceac",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Az motion timer stop",
+        "links": [
+            "b64aead3d98d26fa"
+        ],
+        "x": 2875,
+        "y": 500,
+        "wires": [
+            [
+                "f8098895653c32d6"
+            ]
+        ]
+    },
+    {
+        "id": "7a9df51cb8563e86",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send stop",
+        "func": "msg.command = \"stop\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3540,
+        "y": 480,
+        "wires": [
+            [
+                "b4705501cca56ebd",
+                "f5cd5d64fd7493e8"
+            ]
+        ]
+    },
+    {
+        "id": "438c1e753296bc33",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Update el motion each second",
+        "props": [
+            {
+                "p": "command",
+                "v": "\"status\"",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 3550,
+        "y": 560,
+        "wires": [
+            [
+                "f9b135b2428c34ca",
+                "6a188dac3c5463cf"
+            ]
+        ]
+    },
+    {
+        "id": "f9b135b2428c34ca",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Send status",
+        "func": "msg.command = \"status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3810,
+        "y": 560,
+        "wires": [
+            [
+                "b4705501cca56ebd"
+            ]
+        ]
+    },
+    {
+        "id": "8d1c9a73401681bb",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Convert to seconds",
+        "func": "msg.payload = Math.round(msg.elapsed.millis/1000);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3970,
+        "y": 480,
+        "wires": [
+            [
+                "446a1625277eba62",
+                "c76cadb7a23d44d4"
+            ]
+        ]
+    },
+    {
+        "id": "446a1625277eba62",
+        "type": "ui_gauge",
+        "z": "18ec6336869e4528",
+        "name": "El motion timer",
+        "group": "a5152a051450ad3a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "El rotation time",
+        "label": "seconds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 4180,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f8098895653c32d6",
+        "type": "rbe",
+        "z": "18ec6336869e4528",
+        "name": "Block unless change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 3020,
+        "y": 460,
+        "wires": [
+            [
+                "b2c47d046ae5f1d5"
+            ]
+        ]
+    },
+    {
+        "id": "42885e8d67719a25",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Move (1) or stop (0)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 3350,
+        "y": 460,
+        "wires": [
+            [
+                "2aef28d5871b3d95"
+            ],
+            [
+                "7a9df51cb8563e86"
+            ]
+        ]
+    },
+    {
+        "id": "c76cadb7a23d44d4",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Greater than 40 seconds",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "40",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 4050,
+        "y": 600,
+        "wires": [
+            [
+                "9afad838865b2b67",
+                "5e8c8d491120129e",
+                "46141bbff5f64de1",
+                "e2128f1f91db5a64"
+            ],
+            [
+                "094fc1e1872b3ebc"
+            ]
+        ]
+    },
+    {
+        "id": "9afad838865b2b67",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AutoTrack",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 4300,
+        "y": 600,
+        "wires": [
+            [
+                "496a38a577f6cddc"
+            ]
+        ]
+    },
+    {
+        "id": "5e8c8d491120129e",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Timeout stop",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 4190,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6a188dac3c5463cf",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Set autotrack field",
+        "property": "AutoTrack",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 3510,
+        "y": 640,
+        "wires": [
+            [
+                "30056294a00dc177"
+            ],
+            [
+                "415dac1fbee1dea5"
+            ]
+        ]
+    },
+    {
+        "id": "30056294a00dc177",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Autotrack on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "AutoTrack On",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3750,
+        "y": 640,
+        "wires": [
+            [
+                "dc526ada040e89b0"
+            ]
+        ]
+    },
+    {
+        "id": "46141bbff5f64de1",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Send stop",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 4280,
+        "y": 640,
+        "wires": [
+            [
+                "a978a9338cf1c049"
+            ]
+        ]
+    },
+    {
+        "id": "5686bc89de3da6e2",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Reset",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3550,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f5cd5d64fd7493e8",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Stop",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3550,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b2c47d046ae5f1d5",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Check Rototor on",
+        "property": "RotOnOff",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "On",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 3210,
+        "y": 400,
+        "wires": [
+            [
+                "42885e8d67719a25"
+            ]
+        ]
+    },
+    {
+        "id": "415dac1fbee1dea5",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Autotrack off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Autotrack off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3750,
+        "y": 680,
+        "wires": [
+            [
+                "dc526ada040e89b0"
+            ]
+        ]
+    },
+    {
+        "id": "a978a9338cf1c049",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Timeout stop",
+        "mode": "link",
+        "links": [
+            "d8d025ce8fa2a5f1"
+        ],
+        "x": 4435,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "e2128f1f91db5a64",
+        "type": "ui_toast",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "position": "prompt",
+        "displayTime": "0",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Timeout stop",
+        "cancel": "Cancel",
+        "raw": false,
+        "topic": "",
+        "name": "Timeout stop",
+        "x": 4430,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "846c4fc5218cd0cd",
+        "type": "e-mail",
+        "z": "18ec6336869e4528",
+        "server": "srv03.jkoconnell.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "jon@pearcefamily.org",
+        "dname": "Rotator Controller Email",
+        "x": 4850,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "903cd7b6cb4b238f",
+        "type": "inject",
+        "z": "18ec6336869e4528",
+        "name": "Send rotator timeout",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "El Rotator timeout",
+        "payload": "El Rotator timeout",
+        "payloadType": "str",
+        "x": 4590,
+        "y": 660,
+        "wires": [
+            [
+                "846c4fc5218cd0cd",
+                "0db424235b0eef02"
+            ]
+        ]
+    },
+    {
+        "id": "0db424235b0eef02",
+        "type": "e-mail",
+        "z": "18ec6336869e4528",
+        "d": true,
+        "server": "srv03.jkoconnell.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "6096704686@txt.att.net",
+        "dname": "Rotator Controller Text",
+        "x": 5080,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "998784d3640cdf43",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set msg to El rotator timeout",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El Rotator timeout",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "El Rotator timeout",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 4780,
+        "y": 600,
+        "wires": [
+            [
+                "0db424235b0eef02",
+                "d1019d145f87ad3c"
+            ]
+        ]
+    },
+    {
+        "id": "f139631bfbe863cd",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "El motion start up",
+        "mode": "link",
+        "links": [
+            "912b7fcc3d567df8"
+        ],
+        "x": 305,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1d9f3d6eeb3e1e55",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "El motion start down",
+        "mode": "link",
+        "links": [
+            "912b7fcc3d567df8"
+        ],
+        "x": 195,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "b64aead3d98d26fa",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "El motion stop",
+        "mode": "link",
+        "links": [
+            "d57d73baea89ceac"
+        ],
+        "x": 85,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "2b8f44b1bf91313a",
+        "type": "link in",
+        "z": "18ec6336869e4528",
+        "name": "Display autotrack status",
+        "links": [
+            "dc526ada040e89b0"
+        ],
+        "x": 1915,
+        "y": 640,
+        "wires": [
+            [
+                "546da8cf0a23649e"
+            ]
+        ]
+    },
+    {
+        "id": "dc526ada040e89b0",
+        "type": "link out",
+        "z": "18ec6336869e4528",
+        "name": "Display audotrack status",
+        "mode": "link",
+        "links": [
+            "2b8f44b1bf91313a"
+        ],
+        "x": 3945,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "62ce58785aa0ef01",
+        "type": "e-mail in",
+        "z": "18ec6336869e4528",
+        "name": "Get email",
+        "protocol": "POP3",
+        "server": "srv03.jkoconnell.com",
+        "useSSL": true,
+        "autotls": "always",
+        "port": "995",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "box": "INBOX",
+        "disposition": "Read",
+        "criteria": "UNSEEN",
+        "repeat": "300",
+        "fetch": "auto",
+        "inputs": 0,
+        "x": 3500,
+        "y": 120,
+        "wires": [
+            [
+                "3744f263fdcdae0d"
+            ]
+        ]
+    },
+    {
+        "id": "3744f263fdcdae0d",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "Incoming email",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9038edbb4569fc6b",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Track in progress",
+        "property": "firstchar",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "q",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1490,
+        "y": 1200,
+        "wires": [
+            [
+                "32c2db00c0e73088"
+            ],
+            [
+                "836726900eeb1c8d"
+            ]
+        ]
+    },
+    {
+        "id": "836726900eeb1c8d",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Tracking",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Tracking",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1700,
+        "y": 1220,
+        "wires": [
+            [
+                "d61a33675d80cbe7"
+            ]
+        ]
+    },
+    {
+        "id": "32c2db00c0e73088",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Not Tracking",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Not tracking",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1710,
+        "y": 1180,
+        "wires": [
+            [
+                "d61a33675d80cbe7"
+            ]
+        ]
+    },
+    {
+        "id": "d61a33675d80cbe7",
+        "type": "ui_text",
+        "z": "18ec6336869e4528",
+        "group": "a5152a051450ad3a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Tracking status",
+        "label": "Tracking status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1880,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "f4a144d570873566",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Test SendTextMsgs ",
+        "property": "SendAzTextMsgs",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2530,
+        "y": 620,
+        "wires": [
+            [
+                "06443d59cc5ec38f"
+            ],
+            []
+        ],
+        "info": "Test status to only send text message once"
+    },
+    {
+        "id": "bf38d6b51c8a1c67",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "SendTextMsgs to false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "SendAzTextMsgs",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3020,
+        "y": 580,
+        "wires": [
+            []
+        ],
+        "info": "Only allow texts to be sent once"
+    },
+    {
+        "id": "2bd2297fc3552ffa",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set SendTextMsgs to true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "SendAzTextMsgs",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2370,
+        "y": 700,
+        "wires": [
+            []
+        ],
+        "info": "Reset text message sending once timeout has been cleared"
+    },
+    {
+        "id": "496a38a577f6cddc",
+        "type": "switch",
+        "z": "18ec6336869e4528",
+        "name": "Test SendTextMsgs ",
+        "property": "SendElTextMsgs",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 4510,
+        "y": 600,
+        "wires": [
+            [
+                "998784d3640cdf43"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d1019d145f87ad3c",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "SendTextMsgs to false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "SendElTextMsgs",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 5040,
+        "y": 560,
+        "wires": [
+            []
+        ],
+        "info": "Only allow texts to be sent once"
+    },
+    {
+        "id": "094fc1e1872b3ebc",
+        "type": "change",
+        "z": "18ec6336869e4528",
+        "name": "Set SendTextMsgs to true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "SendElTextMsgs",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 4310,
+        "y": 700,
+        "wires": [
+            []
+        ],
+        "info": "Reset text message sending once timeout has been cleared"
+    },
+    {
+        "id": "4912bbb08f64780a",
+        "type": "rbe",
+        "z": "18ec6336869e4528",
+        "name": "Block unless change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1100,
+        "y": 1080,
+        "wires": [
+            [
+                "102833f20546dc19"
+            ]
+        ]
+    },
+    {
+        "id": "7e3852d54b75ee7d",
+        "type": "function",
+        "z": "18ec6336869e4528",
+        "name": "Splits Skyroof commands",
+        "func": "// Parse P <azimuth> <elevation> command into azPart and elPart\nif (msg.payload && typeof msg.payload === 'string') {\n    const parts = msg.payload.trim().split(/\\s+/);\n    if (parts.length >= 2 && parts[0] === 'P') {\n        // Extract and convert azimuth and elevation to numbers\n        msg.azPart = parseFloat(parts[1]); // Azimuth from second part\n        msg.elPart = parseFloat(parts[2]); // Elevation from third part\n        return msg;\n    } else {\n        msg.payload = \"Error: Invalid P command format\";\n        return msg;\n    }\n} else {\n    msg.payload = \"Error: Payload is not a string\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2270,
+        "y": 760,
+        "wires": [
+            [
+                "a976584ad264fedc",
+                "7a2181c9626eb40b"
+            ]
+        ]
+    },
+    {
+        "id": "f0e41fe72a088bb9",
+        "type": "rbe",
+        "z": "18ec6336869e4528",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2210,
+        "y": 980,
+        "wires": [
+            [
+                "774c5bf1c5108dfc"
+            ]
+        ]
+    },
+    {
+        "id": "c537e204c5d59f01",
+        "type": "debug",
+        "z": "18ec6336869e4528",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6106e136725ac508",
+        "type": "comment",
+        "z": "18ec6336869e4528",
+        "name": "FIlter removed for Skyroof",
+        "info": "",
+        "x": 2130,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "25b883ada736b5d4",
+        "type": "hourglass",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "persistId": "",
+        "humanizeLocale": "",
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "a91ef2fd2cbdc1ee"
+            ]
+        ]
+    },
+    {
+        "id": "b5adcdb313288124",
+        "type": "inject",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "9c816c85d2c3e7b8"
+            ]
+        ]
+    },
+    {
+        "id": "9c816c85d2c3e7b8",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Start",
+        "func": "msg.command = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "2d479c472e6454b1",
+        "type": "debug",
+        "z": "74f0d2268890c18e",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "33f28a5ad69f6af8",
+        "type": "inject",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 240,
+        "wires": [
+            [
+                "9bfd9470cbb6e327"
+            ]
+        ]
+    },
+    {
+        "id": "9bfd9470cbb6e327",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Status",
+        "func": "msg.command = \"status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "d9094e2257cd63d4",
+        "type": "inject",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "614ee40ad5e9109b"
+            ]
+        ]
+    },
+    {
+        "id": "614ee40ad5e9109b",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Stop",
+        "func": "msg.command = \"stop\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "30cbc42d3b359072",
+        "type": "inject",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "ab5563238998ff86"
+            ]
+        ]
+    },
+    {
+        "id": "ab5563238998ff86",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Reset",
+        "func": "msg.command = \"reset\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "a91ef2fd2cbdc1ee",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Convert to seconds",
+        "func": "msg.payload = msg.elapsed.millis/1000;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "2d479c472e6454b1"
+            ]
+        ]
+    },
+    {
+        "id": "9cf13712cc6d2214",
+        "type": "inject",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 360,
+        "wires": [
+            [
+                "df9ee5907d6fd1fe"
+            ]
+        ]
+    },
+    {
+        "id": "df9ee5907d6fd1fe",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Reset",
+        "func": "msg.command = \"reset\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 360,
+        "wires": [
+            [
+                "de17a322fa42ac3b",
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "a282921d87b6ba4c",
+        "type": "function",
+        "z": "74f0d2268890c18e",
+        "name": "Start",
+        "func": "msg.command = \"start\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "25b883ada736b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "de17a322fa42ac3b",
+        "type": "delay",
+        "z": "74f0d2268890c18e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 360,
+        "wires": [
+            [
+                "a282921d87b6ba4c"
+            ]
+        ]
+    },
+    {
+        "id": "b5cb7aa010faf035",
+        "type": "inject",
+        "z": "df39fb6c95be0889",
+        "name": "Set freq",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "F 145000000",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "940b4c16e9598b14",
+                "c53362a2fca5b05a"
+            ]
+        ]
+    },
+    {
+        "id": "940b4c16e9598b14",
+        "type": "tcp out",
+        "z": "df39fb6c95be0889",
+        "name": "9700 TCP",
+        "host": "127.0.0.1",
+        "port": "4531",
+        "beserver": "client",
+        "base64": false,
+        "end": true,
+        "tls": "",
+        "x": 480,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c53362a2fca5b05a",
+        "type": "tcp request",
+        "z": "df39fb6c95be0889",
+        "name": "",
+        "server": "127.0.0.1",
+        "port": "4531",
+        "out": "time",
+        "ret": "buffer",
+        "splitc": "0",
+        "newline": "",
+        "trim": false,
+        "tls": "",
+        "x": 470,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    }
+]
